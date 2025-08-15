@@ -38,7 +38,7 @@ _______
 ### 5. Создание релиза
 ```
 git checkout -b release/1.0
-echo "Версия 1.0" >> version.txt
+echo "Version 1.1" >> version.txt
 git add .
 git commit -m "Prepare to release v1.1"
 git push origin release/1.0
