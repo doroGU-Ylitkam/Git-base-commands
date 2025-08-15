@@ -46,7 +46,7 @@ _______
 ### 6. Слияние релиза в Main
 ```
 git checkout main
-git pull origin main  # Получаем тег
+git pull origin main 
 git tag -a v1.0 -m "Версия 1.0"
 git push --tags
 ```
