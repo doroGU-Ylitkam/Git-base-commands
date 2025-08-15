@@ -31,6 +31,7 @@ _______
 ### 4. Слияние feature в develop
 ```
 git checkout -b develop
+git push -u origin develop
 git merge feature/sorting --no-ff -m "Merge feature/sorting"
 ```
 _______
