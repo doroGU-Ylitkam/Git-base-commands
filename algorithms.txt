@@ -1,1 +1,2 @@
 "Base algorithms:" 
+"1. Line search" 
