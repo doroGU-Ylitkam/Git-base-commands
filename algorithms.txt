@@ -1,2 +1,3 @@
 "Base algorithms:" 
 "1. Line search" 
+"2. Bubble sort" 
