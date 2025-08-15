@@ -37,17 +37,18 @@ git merge feature/sorting --no-ff -m "Merge feature/sorting"
 _______
 ### 5. Создание релиза
 ```
-git checkout -b release/1.0
+git checkout -b release/1.1
 echo "Version 1.1" >> version.txt
 git add .
 git commit -m "Prepare to release v1.1"
-git push origin release/1.0
+git push origin release/1.1
 ```
 _______
 ### 6. Слияние релиза в Main
 ```
 git checkout main
-git pull origin main 
-git tag -a v1.0 -m "Version 1.1"
+git merge release/1.1 --no-ff -m "Release v1.1"
+git tag -a v1.1 -m "Version 1.1"
+git push origin main
 git push --tags
 ```
