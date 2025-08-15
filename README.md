@@ -1,7 +1,7 @@
 # Git-base-commands
-### 0. Pull существующего репозитория
+### 0. Клонирование существующего репозитория
 ```
-git pull https://github.com/doroGU-Ylitkam/Git-base-commands.git
+git clone https://github.com/doroGU-Ylitkam/Git-base-commands.git
 cd Git-base-commands
 ```
 _______
