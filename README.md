@@ -7,24 +7,24 @@ cd Git-base-commands
 _______
 ### 1. Создание файла
 ```
-echo "Базовые алгоритмы:" > algorithms.txt
+echo "Base algorithms:" > algorithms.txt
 git add algorithms.txt
-git commit -m "Создан файл с алгоритмами"
+git commit -m "Create a file with algorithms"
 ```
 _______
 ### 2. Добавление нового алгоритма
 ```
-echo "1. Линейный поиск" >> algorithms.txt
+echo "1. Line search" >> algorithms.txt
 git add .
-git commit -m "Добавлен линейный поиск"
+git commit -m "Added Line search"
 ```
 _______
 ### 3. Создание feature ветки
 ```
 git checkout -b feature/sorting
-echo "2. Сортировка пузырьком" >> algorithms.txt
+echo "2. Bubble sort" >> algorithms.txt
 git add .
-git commit -m "Добавлена сортировка пузырьком"
+git commit -m "Added Bubble sort"
 git push -u origin feature/sorting 
 ```
 _______
@@ -39,7 +39,7 @@ _______
 git checkout -b release/1.0
 echo "Версия 1.0" >> version.txt
 git add .
-git commit -m "Подготовка к релизу v1.0"
+git commit -m "Prepare to release v1.1"
 git push origin release/1.0
 ```
 _______
